@@ -21,6 +21,21 @@ var nova_lista = lista.map(function(numero){
 console.log("nova_lista: ", nova_lista);
 
 
+var reduce_lista = lista.reduce(function(numero, total){
+	return numero + total;
+});
+
+console.log(lista);
+console.log("reduce_list: ",reduce_lista);
+
+
+var filter_lista = lista.filter(function(numero){
+	return (numero >= 10);
+});
+
+
+console.log("filter_lista: ", filter_lista);
+
 
 mapa = {a:1, b:2, c:3, d:4, e:5};
 
